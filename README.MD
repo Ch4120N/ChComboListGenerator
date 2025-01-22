@@ -4,3 +4,24 @@ This is a simple Python script that was created using Python 3, but it can also 
 ## Project Programmer
 > AmirHossein Ghanami (Ch4120N) - Ch4120ni@Gmail.Com
 
+## Made For
+> Generating combo lists
+
+## ⚓ Requires
+> - Python3
+> - Python2
+
+## ⚙️ Installation
+
+```bash
+apt update
+apt install python git -y
+git clone https://github.com/Ch4120N/ChComboGenerator
+cd ChComboGenerator
+python ChComboGenerator.py
+```
+
+### Single line installation
+```bash
+apt update && apt install python git -y && git clone https://github.com/Ch4120N/ChComboGenerator && && cd ChComboGenerator && python ChComboGenerator.py
+```
