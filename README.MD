@@ -46,6 +46,7 @@ Example: python ChComboGenerator.py userlist.txt passlist.txt ";"
 ## ✨ Features
 
 * Supports Emails
+* Support Separator
 * Command Line Application
 * Easy To Use
 * Very High Speed

@@ -1,7 +1,4 @@
 administrator
 admin
-Adminis
-User
 user
-frensch
 gust
