@@ -4,12 +4,14 @@ import os
 import sys
 
 
-if len(sys.argv) < 3:
-	print("Usage: python ChCredMaker.py <User List> <Pass List>")
+if len(sys.argv) < 4:
+	print("Usage: python ChCredMaker.py <User List> <Pass List> <Separator>")
 	sys.exit(1)
 
 userlistPath:str = sys.argv[1]
 passlistPath:str = sys.argv[2]
+Separator:str = sys.argv[3]
+
 outputPath:str = "cred.txt"
 
 if not os.path.exists(userlistPath):
@@ -33,6 +35,7 @@ TotalPassList:int = len(passLists)
 print(f"[+] Total users list: {TotalUserList}")
 print(f"[+] Total password list: {TotalPassList}")
 print(f"[+] Using {os.path.basename(userlistPath)}, {os.path.basename(passlistPath)}")
+print(f"[+] Using \"{Separator}\" for separator")
 print("[+] Start generating credentials")
 print('-'*50)
 
@@ -44,7 +47,7 @@ with open(outputPath, "a") as fwout:
 		user = user.strip()
 		for password in passLists:
 			password = password.strip()
-			combo = f"{user};{password}"
+			combo = f"{user}{Separator}{password}"
 			fwout.write(combo+"\n")
 			count_created += 1
 			print("[+]", count_created, "count of credentials generated", end="\r", flush=True)
