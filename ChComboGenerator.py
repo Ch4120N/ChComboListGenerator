@@ -18,7 +18,7 @@ import sys
 
 
 if len(sys.argv) < 4:
-	print("Usage: python ChCredMaker.py <User List> <Pass List> <Separator>")
+	print("Usage: python ChComboGenerator.py <User List> <Pass List> <Separator>")
 	sys.exit(1)
 
 userlistPath:str = sys.argv[1]

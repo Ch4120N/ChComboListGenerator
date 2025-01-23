@@ -304,7 +304,6 @@ amateur
 7777777
 muffin
 redsox
-hacker
 star
 testing
 shannon
@@ -498,3 +497,4 @@ phantom
 billy
 6666
 albert
+hacker
