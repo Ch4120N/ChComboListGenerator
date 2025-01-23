@@ -36,6 +36,10 @@ Usage: python ChComboGenerator.py <User List> <Pass List> <Separator>
 Example: python ChComboGenerator.py userlist.txt passlist.txt ";"
 ```
 
+## 📝️ How it Works?
+
+<img src="./img.gif" alt="GIF IMG"/>
+
 ## 💻 Supported Operating Systems
 - [X] Ubuntu/Debian
 - [X] Kali Linux
