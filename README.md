@@ -56,11 +56,7 @@ Example: python ChComboListGenerator.exe userlist.txt passlist.txt ";"
 <img src="./img.gif" alt="GIF IMG"/>
 
 ## 💻 Supported Operating Systems
-- [X] Ubuntu/Debian
-- [X] Kali Linux
-- [X] Arch Linux/Red Hat Linux
 - [X] Windows 10/8.1/8/7
-- [X] Android (Termux)
 
 ## ✨ Features
 
