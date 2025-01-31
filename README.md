@@ -1,19 +1,22 @@
-# ChComboGenerator
-This is a simple Python script that was created using Python 3, but it can also be run in Python 2. This script helps you when you use cracking tools like NLBrute, etc. It creates a combo list for you using a username list and a password list.
+# ChComboListGenerator
+This is a simple C# program that was created using .NET Framework 4. This program helps you when you use cracking tools like NLBrute, Hydra, etc. It creates a powerfull combo list for you using a Username OR/Email list and a Password list.
 
 ## Project Programmer
 > AmirHossein Ghanami (Ch4120N) - Ch4120ni@Gmail.Com
 
 ## Made For
-> Generating combo lists
+> Generating Powerfull Combo Lists
 
 ## ⚓ Requires
-> - Python3
-> - Python2
+> - .NET Framework 4
 
 ## ⚙️ Installation
 
-```bash
+- You can download the release from [HERE](https://github.com/Ch4120N/ChComboListGenerator/releases/) for `WINDOWS`
+
+- You can create a cross-platform version of this program for Linux, MacOs with `.NET Core`
+
+<!-- ```bash
 apt update
 apt install python git -y
 git clone https://github.com/Ch4120N/ChComboGenerator
@@ -24,16 +27,28 @@ python ChComboGenerator.py
 ### Single line installation
 ```bash
 apt update && apt install python git -y && git clone https://github.com/Ch4120N/ChComboGenerator && && cd ChComboGenerator && python ChComboGenerator.py
-```
+``` -->
 
 ## 📑 Usage/Example
 
 ```
-Usage: python ChComboGenerator.py <User List> <Pass List> <Separator>
+##################################################################################################
+# Charon Combo List Generator - Simple But, Powerfull                                            #
+#                                                                                                #
+# Usage: ChComboListGenerator.exe <Username/Email List> <Password List> <Separator Char>         #
+#                                                                                                #
+# Separator Characters: ";", "-", "_", "@", "/", "\", "|"                                        #
+#                                                                                                #
+# This Program Helps Attackers To Generate Very Powerfull Combo Lists                            #
+# This Program Uses All Passwords For Every Username OR/Email To Generate A Powerfull Combo List #
+#                                                                                                #
+# Examples: ChComboListGenerator.exe user.txt passlist.txt ;                                     #
+#           ChComboListGenerator.exe emailList.txt passlist.txt -                                #
+##################################################################################################
 ```
 
 ```
-Example: python ChComboGenerator.py userlist.txt passlist.txt ";"
+Example: python ChComboListGenerator.exe userlist.txt passlist.txt ";"
 ```
 
 ## 📝️ How it Works?
@@ -58,7 +73,7 @@ Example: python ChComboGenerator.py userlist.txt passlist.txt ";"
 * Free And Open Source
 
 ## ⚠️ Legal disclaimer ⚠️
-> Usage of `ChComboGenerator` for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+> Usage of `ChComboListGenerator` for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
 ## ❤️ Donation 
 > BITCOIN:   bc1ql4syps7qpa3djqrxwht3g66tldyh4j7qsyjkq0
